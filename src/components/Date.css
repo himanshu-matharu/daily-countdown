@@ -1,0 +1,19 @@
+.date {
+  font-family: "Chingolo Pro";
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+}
+
+.date-month {
+  color: white;
+  font-size: 1.625em;
+}
+
+.date-day {
+  color: #8a0300;
+  font-size: 2.75em;
+}

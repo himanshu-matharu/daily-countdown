@@ -45,19 +45,19 @@ const Flip = () => {
       </div>
       <div ref={divRef} className="tick">
         <div data-layout="horizontal">
-          <div>
+          <div className="seperator">
             <Terminal />
           </div>
           <span data-key="h" data-transform="pad(00)" data-view="flip"></span>
-          <div>
+          <div className="seperator">
             <Seperator />
           </div>
           <span data-key="m" data-transform="pad(00)" data-view="flip"></span>
-          <div>
+          <div className="seperator">
             <Seperator />
           </div>
           <span data-key="s" data-transform="pad(00)" data-view="flip"></span>
-          <div>
+          <div className="seperator">
             <Terminal />
           </div>
         </div>

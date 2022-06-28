@@ -4,16 +4,26 @@
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin-left: 2.5em;
-  margin-right: 2.5em;
+  /* margin-left: 2.5em;
+  margin-right: 2.5em; */
 }
 
 .date-month {
   color: white;
-  font-size: 1.625em;
+  font-size: 1.914vw;
 }
 
 .date-day {
   color: #8a0300;
-  font-size: 2.75em;
+  font-size: 3.24vw;
+}
+
+@media (min-width: 1143px) {
+  .date-month {
+    font-size: 26px;
+  }
+
+  .date-day {
+    font-size: 44px;
+  }
 }

@@ -1,27 +1,72 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
-  padding: 4em 18em 8em 16em;
-  font-size: 16px;
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  background-size: 100% 100%;
-  margin: auto;
-}
-
-.tick {
-  font-size: 5.46875em;
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: 500;
-}
-
 .center-flex {
-  display: flex;
+  display: inline-flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.App-wrapper {
+  display: inline-block;
+  position: relative;
+  width: 70%;
+  max-width: 800px;
+  max-height: 80%;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5.734%;
+  padding-bottom: 6.84%;
+  width: 70%;
+}
+
+.tick {
+  font-size: 7.6553vw;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+
+/* @media (max-width: 576px) {
+  .App {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .App {
+    font-size: 13px;
+  }
+} */
+
+/* @media (min-width: 1200px) {
+  .App-wrapper {
+    font-size: 16px;
+  }
+} */
+
+@media (min-width: 1143px) {
+  .tick {
+    font-size: 87.5px;
+  }
 }

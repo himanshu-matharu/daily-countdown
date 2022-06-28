@@ -395,9 +395,11 @@
 }
 
 .ticker-header {
-  width: 100%;
+  width: auto;
   position: absolute;
   z-index: 2;
+  padding-left: 0.3046875em;
+  padding-right: 0.3046875em;
 }
 
 .ticker-header svg {

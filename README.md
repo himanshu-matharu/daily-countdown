@@ -13,7 +13,7 @@
 The live website can be found <a href="https://daily-countdown.web.app">here</a>.
 
 # Description
-This is a beautiful daily countdown timer that counts down to the end of the day. It is a great productivity tool that I personally use. Consider it like a 24-hour pomodoro timer that keeps you focused and motivated throughout the day that updated everyday automatically.
+This is a beautiful daily countdown timer that counts down to the end of the day. It is a great productivity tool that I personally use. Consider it like a 24-hour pomodoro timer that keeps you focused and motivated throughout the day that updates everyday automatically.
 
 UI of the app is based on an illustration of Braun Phase 2 flip clock by Dietrich Lubs by <a href="https://dribbble.com/shots/15004293-Braun-Phase-2-Flip-Clock?utm_source=Clipboard_Shot&utm_campaign=colaja&utm_content=Braun%20Phase%202%20Flip%20Clock&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=colaja&utm_content=Braun%20Phase%202%20Flip%20Clock&utm_medium=Social_Share">Nikola Lazarevic</a>.
 
